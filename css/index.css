@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 248, 240);
+}
+
+header {
+    width: 700px;
+    border: solid red 1px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+section {
+    width: 700px;
+    border: solid 1px orange;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#midDiv {
+    width: 680px;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    
+}
+
+#file {
+    padding: 5px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#fileImage {
+    width: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+.mainText {
+    margin-top: 40px;
+}
+
+#bingoTable {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#bingoTable th, td {
+    border: 1px solid black;
+    font-family: 'Poor Story', cursive;
+    font-size: 20px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+#bingoTable td :nth-child(3) {
+    font-size: 500px;
+}
+
+#example {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#example li {
+    border-radius: 20px;
+    background-color: rgba(132, 230, 255, 0.815);
+    margin-top: 30px;
+    font-weight: 800;
+    padding: 5px;
+}
