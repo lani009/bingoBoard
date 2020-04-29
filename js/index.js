@@ -2,11 +2,11 @@ let td = $("#bingoTable td");
 let li = $("#example li")
 let link = "#example-";
 
-$(document).ready(function() {
-    if($(window).width() < 700) {
-        document.body.style.zoom = 0.5;
-    }
-});
+// $(document).ready(function() {
+//     if($(window).width() < 700) {
+//         alert(2);
+//     }
+// });
 
 
 
