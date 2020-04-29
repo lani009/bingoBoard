@@ -14,6 +14,12 @@ $(document).ready(function() {
     //    });
 });
 
+$(window).on('load', function(){
+    $.each($('img'), function(index, item) {
+        $(item).addClass('lazyload');
+    });
+});
+
 $.each(li, function(index, item) {
     $(item).attr("id", "example-" + index);
 });
