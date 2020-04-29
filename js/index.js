@@ -16,7 +16,10 @@ $(document).ready(function() {
 
 $(window).on('load', function(){
     $.each($('img'), function(index, item) {
-        $(item).addClass('lazyload');
+        $(item).lazyload({
+            effect: "fadeIn",
+            placeholder: '../img/loading.gif',
+        });
     });
 });
 
