@@ -98,7 +98,7 @@ a {
 }
 
 #example li {
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* background-color: rgba(132, 230, 255, 0.815); */
     margin-top: 30px;
     font-weight: 800;
@@ -108,6 +108,16 @@ a {
 #example li img {
     width: 100%;
     margin-top: 5px;
+}
+
+#detail {
+    width: 90%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#detail li {
+    line-height: 160%;
 }
 
 footer {
