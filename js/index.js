@@ -2,15 +2,17 @@ let td = $("#bingoTable td");
 let li = $("#example li")
 let link = "#example-";
 
-// $(document).ready(function() {
-//     if($(window).width() < 700) {
-//         alert(2);
-//     }
-// });
-
-
-
-
+$(document).ready(function() {
+    if($(window).width() == 720) {
+        $("#fileImage").width($("#file").height() - 10);
+        $("#fileImage").height($("#file").height() - 10);
+    }
+    $(document).bind('selectstart',function() {return false;}); 
+    $(document).bind('dragstart',function(){return false;});
+    // $(document).bind("contextmenu", function(e) {
+    //     return false;
+    //    });
+});
 
 $.each(li, function(index, item) {
     $(item).attr("id", "example-" + index);

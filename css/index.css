@@ -89,10 +89,6 @@ a {
     background-color: white;
 }
 
-#bingoTable td :nth-child(3) {
-    font-size: 500px;
-}
-
 #example {
     width: 85%;
     margin: 0 auto;
@@ -105,7 +101,6 @@ a {
     font-weight: 800;
     /* font-size: 1em; */
     padding: 5px;
-    text-align: justify;
 }
 
 #example li img {
