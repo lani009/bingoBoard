@@ -18,7 +18,7 @@ $(window).on('load', function(){
     $.each($('img'), function(index, item) {
         $(item).lazyload({
             effect: "fadeIn",
-            placeholder: '../img/loading.gif',
+            placeholder: 'https://github.com/lani009/bingoBoard/blob/master/img/loading.gif',
         });
     });
 });
