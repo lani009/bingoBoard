@@ -14,15 +14,6 @@ $(document).ready(function() {
     //    });
 });
 
-$(window).on('load', function(){
-    $.each($('img'), function(index, item) {
-        $(item).lazyload({
-            effect: "fadeIn",
-            placeholder: 'https://github.com/lani009/bingoBoard/blob/master/img/loading.gif',
-        });
-    });
-});
-
 $.each(li, function(index, item) {
     $(item).attr("id", "example-" + index);
 });
