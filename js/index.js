@@ -1,5 +1,5 @@
 let td = $("#bingoTable td");
-let li = $("#example li")
+let li = $("#example li");
 let link = "#example-";
 
 $(document).ready(function() {
