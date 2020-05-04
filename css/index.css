@@ -113,6 +113,18 @@ a {
     margin-top: 5px;
 }
 
+#prize {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+
+#prize p {
+    margin-left: 1em;
+    font-weight: 600;
+}
+
 #detail {
     width: 90%;
     margin: 0 auto;
@@ -121,6 +133,7 @@ a {
 
 #detail li {
     line-height: 160%;
+    font-weight: 600;
 }
 
 footer {

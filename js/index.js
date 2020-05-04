@@ -4,8 +4,8 @@ let link = "#example-";
 
 $(document).ready(function() {
     if($(window).width() == 720) {
-        $("#fileImage").width($("#file").height() - 10);
-        $("#fileImage").height($("#file").height() - 10);
+        $("#fileImage").width(30);
+        $("#fileImage").height(30);
     }
     $(document).bind('selectstart',function() {return false;}); 
     $(document).bind('dragstart',function(){return false;});
